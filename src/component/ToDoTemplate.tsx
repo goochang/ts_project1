@@ -10,7 +10,7 @@ interface ToDoTemplateProps {
 const ToDoTemplate: React.FC<ToDoTemplateProps> = ({ children }) => {
   return (
     <div className='TodoTemplate'>
-      <div className='app-title'>Todo</div>
+      <div className='app-title'>할일관리</div>
       <div className='content'>
         {children}
       </div>
